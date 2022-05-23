@@ -1,0 +1,19 @@
+.Container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 50px;
+}
+.container-card-sun {
+  width: 30vh;
+  height: 40vh;
+  background: rgb(255, 199, 0);
+
+  background: linear-gradient(
+    45deg,
+    rgba(255, 199, 0, 1) 0%,
+    rgba(255, 43, 34, 1) 100%
+  );
+  border-radius: 5%;
+}
