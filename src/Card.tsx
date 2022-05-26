@@ -1,7 +1,5 @@
 import Data from "./api";
 import "./Card.css";
-// @ts-ignore
-import SVGIcon from "./img/test.svg";
 
 export default function MeteoCard() {
   const paris: string = "Paris";
