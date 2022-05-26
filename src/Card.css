@@ -1,19 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap");
+
 .Container-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
   grid-auto-rows: minmax(100px, auto);
   margin: 50px;
 }
-.container-card-sun {
-  width: 30vh;
+
+.container-info-card {
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 32vh;
   height: 40vh;
   background: rgb(255, 199, 0);
-
   background: linear-gradient(
-    45deg,
+    135deg,
     rgba(255, 199, 0, 1) 0%,
-    rgba(255, 43, 34, 1) 100%
+    rgba(255, 150, 34, 1) 100%
   );
   border-radius: 5%;
+}
+.city-text {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.data-meteo-text {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 80px;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.iconesMeteo {
+  width: 50%;
+  height: 50%;
 }
